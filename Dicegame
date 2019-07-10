@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+int main(){
+  int a=0;
+  int b=0;
+
+  a = (rand()%6)+1;
+  b = (rand()%6)+1;
+
+  printf("Rooling the dice ...\n");
+  printf("Die 1: %d\n",a);
+  printf("Die 2: %d\n",b);
+  printf("Total value: %d\n",a+b);
+
+  return 0;
+}
