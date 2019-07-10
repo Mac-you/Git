@@ -28,6 +28,7 @@ int main(){
   printf("Die 4: %d\n",d);
   printf("Die 5: %d\n",e);
   printf("Total value: %d\n",a+b+c+d+e);
+  printf("Total score((a+b+c+d+e)/3): %d\n",(a+b+c+d+e)/3)
 
   if(((a+b+c+d+e)/3)>7)printf("%s, win!\n",name);
   else printf("%s, lose!\n",name);  
