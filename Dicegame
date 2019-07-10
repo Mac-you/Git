@@ -24,9 +24,12 @@ int main(){
   printf("Rooling the dice ...\n");
   printf("Die 1: %d\n",a);
   printf("Die 2: %d\n",b);
-  printf("Total value: %d\n",a+b);
+  printf("Die 3: %d\n",c);
+  printf("Die 4: %d\n",d);
+  printf("Die 5: %d\n",e);
+  printf("Total value: %d\n",a+b+c+d+e);
 
-  if((a+b)>7)printf("%s, win!\n",name);
+  if(((a+b+c+d+e)/3)>7)printf("%s, win!\n",name);
   else printf("%s, lose!\n",name);  
   return 0;
 }
